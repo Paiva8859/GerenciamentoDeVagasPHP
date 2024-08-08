@@ -3,7 +3,7 @@
 # Índice:
 
 ## [1. Sistema Web de Gerenciamento de Empregos e Currículo](#sistema-web-de-gerenciamento-de-empregos-e-currículo)
-### [1.1. Visão Geral do Projeto](#Visão Geral do Projeto)
+### [1.1. Visão Geral do Projeto](#visão-geral-do-projeto)
 ### [1.2. Funcionalidades Principais](#funcionalidades-principais)
 #### [1.2.1. Para Candidatos](#para-candidatos)
 #### [1.2.2. Para Empresas](#para-empresas)
