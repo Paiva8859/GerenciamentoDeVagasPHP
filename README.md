@@ -592,14 +592,15 @@ flowchart TD
     D --> E
     E --> F[Fim]
 
-    %% Estilizando os Passos
+    %% Estilizando Início e Fim
     classDef startend fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
     class A,F startend;
     
+    %% Estilizando Processos
     classDef process fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
     class B,C,D,E process;
 
-    %% Estilizando as Conexões
+    %% Estilizando Conexões
     linkStyle default stroke:#333,stroke-width:2px;
-
-```# GerenciamentoDeVagasPHP
+```
+# GerenciamentoDeVagasPHP
