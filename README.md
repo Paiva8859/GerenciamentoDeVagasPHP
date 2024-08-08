@@ -588,8 +588,8 @@ flowchart TD
     A[Início] --> B[Abrir Painel Administrativo]
     B --> C[Gerenciar Usuários]
     B --> D[Gerenciar Vagas]
+    C --> E[Gerar Relatórios]
     D --> E[Gerar Relatórios]
-    C --> E
     E --> F[Fim]
 
     %% Estilizando os Passos
@@ -601,5 +601,6 @@ flowchart TD
 
     %% Estilizando as Conexões
     linkStyle default stroke:#333,stroke-width:2px;
+
 
 ```# GerenciamentoDeVagasPHP
