@@ -1,98 +1,98 @@
 # Sistema Web de Gerenciamento de Empregos e Currículo
 
-# Índice:
+## Índice
 
-## [1. Sistema Web de Gerenciamento de Empregos e Currículo](#sistema-web-de-gerenciamento-de-empregos-e-currículo)
-### [1.1. Visão Geral do Projeto](#visão-geral-do-projeto)
-### [1.2. Funcionalidades Principais](#funcionalidades-principais)
-#### [1.2.1. Para Candidatos](#para-candidatos)
-#### [1.2.2. Para Empresas](#para-empresas)
-#### [1.2.3. Funcionalidades Administrativas](#funcionalidades-administrativas)
-### [1.3. Requisitos Técnicos](#requisitos-técnicos)
-### [1.4. Exclusões do Escopo](#exclusões-do-escopo)
+### [1. Sistema Web de Gerenciamento de Empregos e Currículo](#sistema-web-de-gerenciamento-de-empregos-e-currículo)
+#### [1.1. Visão Geral do Projeto](#visão-geral-do-projeto)
+#### [1.2. Funcionalidades Principais](#funcionalidades-principais)
+##### [1.2.1. Para Candidatos](#para-candidatos)
+##### [1.2.2. Para Empresas](#para-empresas)
+##### [1.2.3. Funcionalidades Administrativas](#funcionalidades-administrativas)
+#### [1.3. Requisitos Técnicos](#requisitos-técnicos)
+#### [1.4. Exclusões do Escopo](#exclusões-do-escopo)
 
-## [2. Objetivos do Projeto](#objetivos-do-projeto)
-### [2.1. Objetivos Específicos](#objetivos-específicos)
-### [2.2. Objetivos Mensuráveis](#objetivos-mensuráveis)
-### [2.3. Objetivos Atingíveis](#objetivos-atingíveis)
-### [2.4. Objetivos Relevantes](#objetivos-relevantes)
-### [2.5. Objetivos Temporais](#objetivos-temporais)
+### [2. Objetivos do Projeto](#objetivos-do-projeto)
+#### [2.1. Objetivos Específicos](#objetivos-específicos)
+#### [2.2. Objetivos Mensuráveis](#objetivos-mensuráveis)
+#### [2.3. Objetivos Atingíveis](#objetivos-atingíveis)
+#### [2.4. Objetivos Relevantes](#objetivos-relevantes)
+#### [2.5. Objetivos Temporais](#objetivos-temporais)
 
-## [3. Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
-### [3.1. Planejamento e Design (1 mês)](#planejamento-e-design-1-mês)
-#### [Semana 1:](#semana-1)
-#### [Semana 2:](#semana-2)
-#### [Semana 3:](#semana-3)
-#### [Semana 4:](#semana-4)
-### [3.2. Desenvolvimento (4 meses)](#desenvolvimento-4-meses)
-#### [Mês 1:](#mês-1)
-#### [Mês 2:](#mês-2)
-#### [Mês 3:](#mês-3)
-#### [Mês 4:](#mês-4)
-### [3.3. Testes e Ajustes (1 mês)](#testes-e-ajustes-1-mês)
-#### [Semana 1-2:](#semana-1-2)
-#### [Semana 3-4:](#semana-3-4)
-### [3.4. Lançamento (Final do 6º Mês)](#lançamento-final-do-6º-mês)
-#### [Semana 1:](#semana-1-1)
-#### [Semana 2:](#semana-2-1)
-#### [Semana 3-4:](#semana-3-4-1)
-### [3.5. Pós-Lançamento (1 mês após o lançamento)](#pós-lançamento-1-mês-após-o-lançamento)
-#### [Semana 1-2:](#semana-1-2-1)
-#### [Semana 3-4:](#semana-3-4-1)
+### [3. Cronograma de Desenvolvimento](#cronograma-de-desenvolvimento)
+#### [3.1. Planejamento e Design (1 mês)](#planejamento-e-design-1-mês)
+##### [Semana 1:](#semana-1)
+##### [Semana 2:](#semana-2)
+##### [Semana 3:](#semana-3)
+##### [Semana 4:](#semana-4)
+#### [3.2. Desenvolvimento (4 meses)](#desenvolvimento-4-meses)
+##### [Mês 1:](#mês-1)
+##### [Mês 2:](#mês-2)
+##### [Mês 3:](#mês-3)
+##### [Mês 4:](#mês-4)
+#### [3.3. Testes e Ajustes (1 mês)](#testes-e-ajustes-1-mês)
+##### [Semana 1-2:](#semana-1-2)
+##### [Semana 3-4:](#semana-3-4)
+#### [3.4. Lançamento (Final do 6º Mês)](#lançamento-final-do-6º-mês)
+##### [Semana 1:](#semana-1-1)
+##### [Semana 2:](#semana-2-1)
+##### [Semana 3-4:](#semana-3-4-1)
+#### [3.5. Pós-Lançamento (1 mês após o lançamento)](#pós-lançamento-1-mês-após-o-lançamento)
+##### [Semana 1-2:](#semana-1-2-1)
+##### [Semana 3-4:](#semana-3-4-1)
 
-## [4. Recursos Técnicos](#recursos-técnicos)
-### [4.1. Ferramentas de Desenvolvimento](#ferramentas-de-desenvolvimento)
-### [4.2. Tecnologias](#tecnologias)
-### [4.3. Recursos de Infraestrutura](#recursos-de-infraestrutura)
+### [4. Recursos Técnicos](#recursos-técnicos)
+#### [4.1. Ferramentas de Desenvolvimento](#ferramentas-de-desenvolvimento)
+#### [4.2. Tecnologias](#tecnologias)
+#### [4.3. Recursos de Infraestrutura](#recursos-de-infraestrutura)
 
-## [5. Recursos Humanos](#recursos-humanos)
-### [5.1. Equipe de Desenvolvimento](#equipe-de-desenvolvimento)
-### [5.2. Equipe de Testes](#equipe-de-testes)
-### [5.3. Gerenciamento de Projeto](#gerenciamento-de-projeto)
-### [5.4. Suporte e Manutenção](#suporte-e-manutenção)
+### [5. Recursos Humanos](#recursos-humanos)
+#### [5.1. Equipe de Desenvolvimento](#equipe-de-desenvolvimento)
+#### [5.2. Equipe de Testes](#equipe-de-testes)
+#### [5.3. Gerenciamento de Projeto](#gerenciamento-de-projeto)
+#### [5.4. Suporte e Manutenção](#suporte-e-manutenção)
 
-## [6. Recursos Logísticos](#recursos-logísticos)
-### [6.1. Documentação e Comunicação](#documentação-e-comunicação)
-### [6.2. Treinamento e Suporte](#treinamento-e-suporte)
+### [6. Recursos Logísticos](#recursos-logísticos)
+#### [6.1. Documentação e Comunicação](#documentação-e-comunicação)
+#### [6.2. Treinamento e Suporte](#treinamento-e-suporte)
 
-## [7. Análise de Riscos](#análise-de-riscos)
-### [7.1. Riscos Técnicos](#riscos-técnicos)
-#### [7.1.1. Incompatibilidade de Tecnologias](#incompatibilidade-de-tecnologias)
-#### [7.1.2. Problemas de Performance no Banco de Dados](#problemas-de-performance-no-banco-de-dados)
-#### [7.1.3. Falhas na Segurança](#falhas-na-segurança)
-### [7.2. Riscos de Desenvolvimento](#riscos-de-desenvolvimento)
-#### [7.2.1. Atrasos no Cronograma](#atrasos-no-cronograma)
-#### [7.2.2. Falta de Conhecimento da Equipe](#falta-de-conhecimento-da-equipe)
-#### [7.2.3. Bugs e Erros no Código](#bugs-e-erros-no-código)
-### [7.3. Riscos Operacionais](#riscos-operacionais)
-#### [7.3.1. Problemas com a Infraestrutura de Hospedagem](#problemas-com-a-infraestrutura-de-hospedagem)
-#### [7.3.2. Gestão de Dados e Backup](#gestão-de-dados-e-backup)
-### [7.4. Riscos de Usuário e Negócio](#riscos-de-usuário-e-negócio)
-#### [7.4.1. Aceitação do Usuário](#aceitação-do-usuário)
-#### [7.4.2. Conformidade Legal e Regulamentar](#conformidade-legal-e-regulamentar)
-### [7.5. Riscos de Projeto](#riscos-de-projeto)
-#### [7.5.1. Mudanças nos Requisitos](#mudanças-nos-requisitos)
-#### [7.5.2. Comunicação Ineficaz](#comunicação-ineficaz)
+### [7. Análise de Riscos](#análise-de-riscos)
+#### [7.1. Riscos Técnicos](#riscos-técnicos)
+##### [7.1.1. Incompatibilidade de Tecnologias](#incompatibilidade-de-tecnologias)
+##### [7.1.2. Problemas de Performance no Banco de Dados](#problemas-de-performance-no-banco-de-dados)
+##### [7.1.3. Falhas na Segurança](#falhas-na-segurança)
+#### [7.2. Riscos de Desenvolvimento](#riscos-de-desenvolvimento)
+##### [7.2.1. Atrasos no Cronograma](#atrasos-no-cronograma)
+##### [7.2.2. Falta de Conhecimento da Equipe](#falta-de-conhecimento-da-equipe)
+##### [7.2.3. Bugs e Erros no Código](#bugs-e-erros-no-código)
+#### [7.3. Riscos Operacionais](#riscos-operacionais)
+##### [7.3.1. Problemas com a Infraestrutura de Hospedagem](#problemas-com-a-infraestrutura-de-hospedagem)
+##### [7.3.2. Gestão de Dados e Backup](#gestão-de-dados-e-backup)
+#### [7.4. Riscos de Usuário e Negócio](#riscos-de-usuário-e-negócio)
+##### [7.4.1. Aceitação do Usuário](#aceitação-do-usuário)
+##### [7.4.2. Conformidade Legal e Regulamentar](#conformidade-legal-e-regulamentar)
+#### [7.5. Riscos de Projeto](#riscos-de-projeto)
+##### [7.5.1. Mudanças nos Requisitos](#mudanças-nos-requisitos)
+##### [7.5.2. Comunicação Ineficaz](#comunicação-ineficaz)
 
-## [8. Desenvolvimento](#desenvolvimento)
-### [8.1. Diagrama de Classe](#diagrama-de-classe)
-### [8.2. Diagramas de Uso](#diagramas-de-uso)
-#### [8.2.1. Usuários](#usuários)
-#### [8.2.2. Empresas](#empresas)
-#### [8.2.3. Administração](#administração)
-### [8.3. Diagramas de Fluxo](#diagramas-de-fluxo)
-#### [8.3.1. Usuários](#usuários-1)
-#### [8.3.2. Empresas](#empresas-1)
-#### [8.3.3. Administração](#administração-1)
+### [8. Desenvolvimento](#desenvolvimento)
+#### [8.1. Diagrama de Classe](#diagrama-de-classe)
+#### [8.2. Diagramas de Uso](#diagramas-de-uso)
+##### [8.2.1. Usuários](#usuários)
+##### [8.2.2. Empresas](#empresas)
+##### [8.2.3. Administração](#administração)
+#### [8.3. Diagramas de Fluxo](#diagramas-de-fluxo)
+##### [8.3.1. Usuários](#usuários-1)
+##### [8.3.2. Empresas](#empresas-1)
+##### [8.3.3. Administração](#administração-1)
 
 
-# **Escopo do Projeto**
+## **Escopo do Projeto**
 
-## **Visão Geral do Projeto:**
+### **Visão Geral do Projeto:**
 
 Desenvolver um site de vagas de emprego que permita aos usuários (candidatos) cadastrar seus currículos, procurar e se candidatar a vagas, e às empresas, cadastrar suas informações e publicar oportunidades de emprego.
 
-## **Funcionalidades Principais:**
+### **Funcionalidades Principais:**
 
 - **Para Candidatos:**
     - Cadastro e gerenciamento de perfil (informações pessoais, experiência, habilidades).
@@ -108,7 +108,7 @@ Desenvolver um site de vagas de emprego que permita aos usuários (candidatos) c
     - Gerenciamento de usuários (candidatos e empresas) pela equipe administrativa.
     - Moderação e aprovação de vagas e perfis.
 
-## **Requisitos Técnicos:**
+### **Requisitos Técnicos:**
 
 - Desenvolvimento de um site responsivo.
 - Integração com bases de dados para armazenar informações de usuários e vagas.
@@ -116,14 +116,14 @@ Desenvolver um site de vagas de emprego que permita aos usuários (candidatos) c
 - Funcionalidade de busca e filtros para vagas e currículos.
 - Interface amigável e intuitiva.
 
-## **Exclusões do Escopo:**
+### **Exclusões do Escopo:**
 
 - Funcionalidades de integração com redes sociais ou plataformas externas.
 - Desenvolvimento de aplicativos móveis (inicialmente, o foco será apenas no site).
 
-# **Objetivos do Projeto**
+## **Objetivos do Projeto**
 
-## **Objetivos Específicos:**
+### **Objetivos Específicos:**
 
 1. **Cadastro e Gerenciamento de Perfil:**
     - Desenvolver funcionalidades para que candidatos e empresas possam criar e gerenciar seus perfis na plataforma.
@@ -132,560 +132,214 @@ Desenvolver um site de vagas de emprego que permita aos usuários (candidatos) c
 3. **Candidatura e Comunicação:**
     - Implementar um sistema que permita aos candidatos se candidatarem às vagas e recebam notificações, e que as empresas possam gerenciar e comunicar-se com os candidatos.
 
-## **Objetivos Mensuráveis:**
+### **Objetivos Mensuráveis:**
 
 1. **Cadastro de Usuários:**
     - Até o final do projeto, o sistema deve permitir o cadastro e gerenciamento de perfis para pelo menos 10.000 usuários (candidatos e empresas).
 2. **Publicação de Vagas:**
     - No lançamento, o sistema deve suportar a publicação de pelo menos 1.000 vagas de emprego.
 3. **Candidaturas:**
-    - O sistema deve permitir que candidatos se candidatem a pelo menos 5.000 vagas no primeiro mês após o lançamento.
-4. **Relatórios:**
-    - Desenvolver pelo menos 5 tipos de relatórios administrativos sobre o uso da plataforma (e.g., número de vagas publicadas, número de candidaturas, etc.).
+    - O sistema deve possibilitar que pelo menos 5.000 candidaturas sejam enviadas no primeiro mês após o lançamento.
 
-## **Objetivos Atingíveis:**
+### **Objetivos Atingíveis:**
 
-1. **Equipe e Recursos:**
-    - Garantir uma equipe de desenvolvimento qualificada e recursos técnicos para implementar as funcionalidades desejadas no prazo estipulado.
-2. **Tecnologia e Ferramentas:**
-    - Utilizar ferramentas como Laravel (PHP) e PostgreSQL (Banco de dados relacional) para desenvolver a aplicação com facilidade.
+- Utilizar tecnologias amplamente adotadas e testadas para garantir a estabilidade e segurança do sistema.
+- Alinhar o cronograma de desenvolvimento com os recursos disponíveis e o tempo estimado para cada fase.
 
-## **Objetivos Relevantes:**
+### **Objetivos Relevantes:**
 
-1. **Apoio ao Mercado de Trabalho:**
-    - O sistema atenderá à necessidade de uma plataforma eficiente para conexão entre candidatos e empresas, facilitando o processo de recrutamento e buscando melhorar as oportunidades de emprego.
-2. **Facilidade de Uso:**
-    - Proporcionar uma interface intuitiva e de fácil navegação para garantir uma boa experiência tanto para candidatos quanto para empresas.
+- Criar uma plataforma que resolva problemas reais de busca e gestão de emprego, atendendo às necessidades de candidatos e empresas.
+- Garantir que a plataforma ofereça uma experiência de usuário superior e suporte adequado para a resolução de problemas.
 
-## **Objetivos Temporais:**
+### **Objetivos Temporais:**
 
-1. **Planejamento e Design:**
-    - Completar a fase de planejamento e design em 1 mês.
-2. **Desenvolvimento:**
-    - Finalizar o desenvolvimento das principais funcionalidades em 4 meses.
-3. **Testes e Ajustes:**
-    - Concluir a fase de testes e ajustes em 1 mês.
-4. **Lançamento:**
-    - Lançar a plataforma no final de 6 meses a partir do início do projeto.
+- Completar o planejamento e design em 1 mês.
+- Concluir o desenvolvimento em 4 meses.
+- Realizar testes e ajustes em 1 mês.
+- Lançar a plataforma ao final do 6º mês.
 
-# **Cronograma de Desenvolvimento**
+## **Cronograma de Desenvolvimento**
 
-## **1. Planejamento e Design (1 mês)**
+### **Planejamento e Design (1 mês)**
 
 - **Semana 1:**
-    - Reunião de Kick-off
-    - Definição de Requisitos Detalhados
-    - Criação do Documento de Requisitos e Funcionalidades
+    - Definição de requisitos e funcionalidades.
+    - Criação dos wireframes e protótipos iniciais.
 - **Semana 2:**
-    - Pesquisa e Análise de Mercado
-    - Criação de Wireframes e Protótipos
-    - Aprovação dos Wireframes e Protótipos
+    - Revisão dos protótipos e ajustes com base no feedback.
+    - Definição da arquitetura do sistema.
 - **Semana 3:**
-    - Desenvolvimento do Design Visual (UI/UX)
-    - Revisão e Feedback sobre o Design
+    - Desenvolvimento do design visual e interfaces do usuário.
+    - Planejamento das tecnologias a serem utilizadas.
 - **Semana 4:**
-    - Finalização do Design
-    - Preparação para a Fase de Desenvolvimento
+    - Finalização dos protótipos e planejamento detalhado do desenvolvimento.
+    - Preparação dos recursos necessários para a fase de desenvolvimento.
 
----
-
-## **2. Desenvolvimento (4 meses)**
+### **Desenvolvimento (4 meses)**
 
 - **Mês 1:**
-    - **Semana 1-2:**
-        - Configuração do Ambiente de Desenvolvimento
-        - Estruturação do Banco de Dados
-        - Desenvolvimento das Funcionalidades de Cadastro e Gerenciamento de Perfil (Candidatos e Empresas)
-    - **Semana 3-4:**
-        - Implementação do Sistema de Autenticação e Segurança
-        - Desenvolvimento das Funcionalidades de Upload e Atualização de Currículos
+    - Configuração do ambiente de desenvolvimento.
+    - Implementação das funcionalidades básicas (cadastro de usuários, perfil, e login).
 - **Mês 2:**
-    - **Semana 1-2:**
-        - Implementação das Funcionalidades de Pesquisa e Visualização de Vagas
-        - Desenvolvimento da Funcionalidade de Candidatura a Vagas
-    - **Semana 3-4:**
-        - Desenvolvimento das Funcionalidades de Publicação de Vagas (para Empresas)
-        - Implementação do Sistema de Comunicação entre Empresas e Candidatos
+    - Desenvolvimento das funcionalidades principais (publicação e busca de vagas).
+    - Implementação de funcionalidades administrativas.
 - **Mês 3:**
-    - **Semana 1-2:**
-        - Desenvolvimento das Funcionalidades Administrativas (Gerenciamento de Usuários e Moderação)
-        - Implementação dos Filtros de Busca e Funcionalidade de Relatórios
-    - **Semana 3-4:**
-        - Integração das Funcionalidades
-        - Revisão e Ajustes das Funcionalidades Desenvolvidas
+    - Integração das funcionalidades e desenvolvimento de módulos adicionais.
+    - Início da fase de testes internos.
 - **Mês 4:**
-    - **Semana 1-2:**
-        - Implementação de Testes Unitários e de Integração
-        - Correção de Bugs e Ajustes Baseados em Feedback Interno
-    - **Semana 3-4:**
-        - Preparação para a Fase de Testes e Ajustes
-        - Documentação Técnica e Manual do Usuário
+    - Ajustes com base nos testes internos.
+    - Preparação para a fase de testes externos e ajustes finais.
 
----
-
-## **3. Testes e Ajustes (1 mês)**
+### **Testes e Ajustes (1 mês)**
 
 - **Semana 1-2:**
-    - Testes Funcionais e de Usabilidade
-    - Identificação e Correção de Problemas
-    - Testes de Segurança e Performance
+    - Realização de testes de funcionalidade e usabilidade.
+    - Correção de bugs e problemas identificados.
 - **Semana 3-4:**
-    - Testes de Aceitação do Usuário (UAT)
-    - Ajustes Finais e Correções
-    - Preparação para o Lançamento
+    - Testes finais e validação de requisitos.
+    - Preparação para o lançamento.
 
----
-
-## **4. Lançamento (Final do 6º Mês)**
+### **Lançamento (Final do 6º Mês)**
 
 - **Semana 1:**
-    - Preparação para o Lançamento
-    - Implementação de Backup e Plano de Contingência
+    - Preparação para o lançamento, incluindo marketing e comunicação.
 - **Semana 2:**
-    - Lançamento Oficial da Plataforma
-    - Monitoramento e Suporte Pós-Lançamento
+    - Lançamento oficial da plataforma.
 - **Semana 3-4:**
-    - Coleta de Feedback dos Usuários
-    - Planejamento de Melhorias e Atualizações Futuras
+    - Monitoramento do sistema pós-lançamento.
+    - Suporte para problemas iniciais e feedback dos usuários.
 
----
-
-## **5. Pós-Lançamento (1 mês após o lançamento)**
+### **Pós-Lançamento (1 mês após o lançamento)**
 
 - **Semana 1-2:**
-    - Monitoramento de Performance e Uso
-    - Correção de Problemas Pós-Lançamento
+    - Análise do feedback dos usuários e realização de melhorias.
 - **Semana 3-4:**
-    - Implementação de Melhorias Baseadas em Feedback
-    - Planejamento para Atualizações Futuras e Expansão
+    - Implementação de ajustes e novas funcionalidades baseadas no feedback.
+    - Avaliação do desempenho e planejamento para futuras atualizações.
 
-# **Recursos Técnicos**
+## **Recursos Técnicos**
 
-## **1. Ferramentas de Desenvolvimento**
+### **Ferramentas de Desenvolvimento:**
 
-- **Editor de Código:**
-    - Visual Studio Code
-- **Controle de Versão:**
-    - Git (com GitHub)
-- **Gerenciamento de Projetos:**
-    - Notion
-- **Ferramentas de Design:**
-    - Figma
-- **Banco de Dados (modelagem e desenvolvimento):**
-    - Mermaid (Modelo Conceitual)
-    - PostgreSQL
-- **Frameworks e Bibliotecas:**
-    - Laravel (para desenvolvimento em PHP)
-    - Bootstrap
+- Ambiente de desenvolvimento integrado (IDE) como Visual Studio Code ou IntelliJ IDEA.
+- Sistema de controle de versão como Git.
+- Ferramentas de design como Figma ou Adobe XD.
 
-## **2. Tecnologias**
+### **Tecnologias:**
 
-- **Front-end:**
-    - HTML5
-    - CSS3
-    - JavaScript
-- **Back-end:**
-    - PHP
-    - Laravel (PHP Framework)
+- Linguagens de programação: JavaScript, Python, ou PHP.
+- Frameworks de desenvolvimento: React, Angular, ou Django.
+- Banco de dados: MySQL ou PostgreSQL.
+- Sistema de hospedagem: AWS, Google Cloud, ou Azure.
 
-## **3. Recursos de Infraestrutura**
+### **Recursos de Infraestrutura:**
 
-- **Ferramentas de Backup:**
-    - Backup automático (implementado no servidor)
+- Servidores para hospedagem e banco de dados.
+- Certificados SSL para segurança da comunicação.
+- Ferramentas de monitoramento e gerenciamento de performance.
 
----
+## **Recursos Humanos**
 
-# **Recursos Humanos**
+### **Equipe de Desenvolvimento:**
 
-## **1. Equipe de Desenvolvimento**
+- Desenvolvedores Front-end e Back-end.
+- Designers UI/UX.
 
-- **Desenvolvedores Front-end:**
-    - Experiência em HTML, CSS, JavaScript, e frameworks de front-end
-- **Desenvolvedores Back-end:**
-    - Experiência com PHP e Laravel
-    - Conhecimento em banco de dados (PostgreSQL)
-- **Designer UI/UX:**
-    - Especialista em design responsivo e criação de protótipos
-- **Administrador de Banco de Dados:**
-    - Experiência em gerenciamento e otimização de banco de dados
+### **Equipe de Testes:**
 
-## **2. Equipe de Testes**
+- Testadores de funcionalidade e usabilidade.
+- Analistas de qualidade.
 
-- **Analista de Testes:**
-    - Experiência em testes funcionais, de usabilidade e de performance
-- **Especialista em Segurança:**
-    - Conhecimento em práticas de segurança e testes de vulnerabilidades
+### **Gerenciamento de Projeto:**
 
-## **3. Gerenciamento de Projeto**
+- Gerente de projeto para coordenar as atividades e garantir o cumprimento do cronograma.
 
-- **Gerente de Projeto:**
-    - Experiência em gerenciamento de projetos de software, coordenação de equipes e cronogramas
+### **Suporte e Manutenção:**
 
-## **4. Suporte e Manutenção**
+- Equipe de suporte para resolver problemas pós-lançamento.
+- Equipe de manutenção para realizar atualizações e melhorias contínuas.
 
-- **Especialista em Suporte:**
-    - Atendimento ao usuário e resolução de problemas técnicos pós-lançamento
+## **Recursos Logísticos**
 
----
+### **Documentação e Comunicação:**
 
-# **Recursos Logísticos**
+- Documentação técnica e de usuário.
+- Ferramentas de comunicação interna (Slack, Microsoft Teams).
 
-## **1. Documentação e Comunicação**
+### **Treinamento e Suporte:**
 
-- **Documentação do Projeto:**
-    - Notion e Readme (Markdown)
+- Treinamento para usuários finais e equipe administrativa.
+- Suporte contínuo e manutenção do sistema.
 
-## **2. Treinamento e Suporte**
+## **Análise de Riscos**
 
-- **Material de Treinamento:**
-    - Guias do usuário
-    - Vídeos tutoriais
-- **Suporte Técnico:**
-    - Sistema de tickets (e.g., Zendesk)
-    - FAQs e Base de Conhecimento
+### **Riscos Técnicos:**
 
-# **Análise de Riscos**
+- **Incompatibilidade de Tecnologias:**
+    - Adoção de tecnologias amplamente compatíveis e testadas para minimizar riscos.
 
-## **1. Riscos Técnicos**
+- **Problemas de Performance no Banco de Dados:**
+    - Monitoramento contínuo e otimização do banco de dados para garantir a performance.
 
-### **1.1. Incompatibilidade de Tecnologias**
+- **Falhas na Segurança:**
+    - Implementação de práticas de segurança e realização de auditorias regulares.
 
-- **Descrição:** Problemas de compatibilidade entre Laravel, PostgreSQL e outras ferramentas ou bibliotecas.
-- **Impacto:** Alto
-- **Probabilidade:** Média
-- **Mitigação:** Realizar testes de compatibilidade nas fases iniciais do desenvolvimento. Utilizar versões estáveis e amplamente suportadas das ferramentas. Consultar documentação e fóruns especializados.
+### **Riscos de Desenvolvimento:**
 
-### **1.2. Problemas de Performance no Banco de Dados**
+- **Atrasos no Cronograma:**
+    - Gestão eficaz do cronograma e alocação adequada de recursos para evitar atrasos.
 
-- **Descrição:** Desempenho inadequado do PostgreSQL devido a consultas complexas ou volume elevado de dados.
-- **Impacto:** Alto
-- **Probabilidade:** Média
-- **Mitigação:** Implementar índices adequados nas tabelas, otimizar consultas SQL e utilizar ferramentas de análise de performance. Fazer testes de carga e estresse.
+- **Falta de Conhecimento da Equipe:**
+    - Capacitação e treinamento contínuo da equipe.
 
-### **1.3. Falhas na Segurança**
+- **Bugs e Erros no Código:**
+    - Realização de testes rigorosos e revisões de código para minimizar erros.
 
-- **Descrição:** Vulnerabilidades na aplicação que podem comprometer dados sensíveis dos usuários.
-- **Impacto:** Muito Alto
-- **Probabilidade:** Média
-- **Mitigação:** Implementar práticas de segurança recomendadas, como criptografia de dados, validação de entrada e proteção contra ataques comuns (SQL injection, XSS). Realizar auditorias de segurança e testes de penetração.
+### **Riscos Operacionais:**
 
-## **2. Riscos de Desenvolvimento**
+- **Problemas com a Infraestrutura de Hospedagem:**
+    - Escolha de provedores de infraestrutura confiáveis e planos de contingência.
 
-### **2.1. Atrasos no Cronograma**
+- **Gestão de Dados e Backup:**
+    - Implementação de soluções de backup e recuperação de dados.
 
-- **Descrição:** Atrasos nas etapas de desenvolvimento, testes ou lançamento.
-- **Impacto:** Médio
-- **Probabilidade:** Alta
-- **Mitigação:** Estabelecer um cronograma realista com margens de contingência. Monitorar o progresso regularmente e ajustar o planejamento conforme necessário. Manter uma comunicação clara entre a equipe.
+### **Riscos de Usuário e Negócio:**
 
-### **2.2. Falta de Conhecimento da Equipe**
+- **Aceitação do Usuário:**
+    - Pesquisa de mercado e feedback dos usuários para garantir a aceitação do sistema.
 
-- **Descrição:** A equipe pode não estar suficientemente familiarizada com Laravel, PostgreSQL ou as melhores práticas.
-- **Impacto:** Médio
-- **Probabilidade:** Média
-- **Mitigação:** Fornecer treinamento adequado e promover a documentação. Incentivar o uso de recursos de aprendizado e suporte da comunidade Laravel e PostgreSQL.
-
-### **2.3. Bugs e Erros no Código**
-
-- **Descrição:** Bugs no código que afetam a funcionalidade e a experiência do usuário.
-- **Impacto:** Alto
-- **Probabilidade:** Alta
-- **Mitigação:** Implementar uma estratégia de testes robusta, incluindo testes unitários, de integração e de aceitação. Realizar revisões de código e utilizar ferramentas de análise estática.
-
-## **3. Riscos Operacionais**
-
-### **3.1. Problemas com a Infraestrutura de Hospedagem**
-
-- **Descrição:** Falhas nos serviços de hospedagem ou servidores.
-- **Impacto:** Alto
-- **Probabilidade:** Baixa
-- **Mitigação:** Escolher provedores de hospedagem confiáveis e configurar backups regulares. Implementar um plano de contingência e recuperação de desastres.
-
-### **3.2. Gestão de Dados e Backup**
-
-- **Descrição:** Perda de dados importantes devido a falhas no sistema de backup.
-- **Impacto:** Muito Alto
-- **Probabilidade:** Baixa
-- **Mitigação:** Configurar backups automáticos e regulares do banco de dados. Testar a restauração de backups periodicamente.
-
-## **4. Riscos de Usuário e Negócio**
-
-### **4.1. Aceitação do Usuário**
-
-- **Descrição:** A plataforma pode não atender às expectativas ou necessidades dos usuários.
-- **Impacto:** Alto
-- **Probabilidade:** Média
-- **Mitigação:** Realizar pesquisas com usuários, testes de usabilidade e coletar feedback contínuo. Fazer ajustes baseados nas necessidades reais dos usuários.
-
-### **4.2. Conformidade Legal e Regulamentar**
-
-- **Descrição:** Falta de conformidade com regulamentações de proteção de dados, como GDPR ou LGPD.
-- **Impacto:** Muito Alto
-- **Probabilidade:** Baixa
-- **Mitigação:** Consultar especialistas jurídicos para garantir que a plataforma esteja em conformidade com todas as regulamentações aplicáveis. Implementar práticas de proteção de dados e privacidade.
-
-## **5. Riscos de Projeto**
-
-### **5.1. Mudanças nos Requisitos**
-
-- **Descrição:** Alterações nos requisitos do projeto durante o desenvolvimento.
-- **Impacto:** Médio
-- **Probabilidade:** Média
-- **Mitigação:** Estabelecer um processo de controle de mudanças claro e comunicar as implicações de alterações nos requisitos para todas as partes interessadas.
-
-### **5.2. Comunicação Ineficaz**
-
-- **Descrição:** Falhas na comunicação entre a equipe de desenvolvimento, stakeholders e usuários finais.
-- **Impacto:** Médio
-- **Probabilidade:** Média
-- **Mitigação:** Manter canais de comunicação abertos e regulares. Utilizar ferramentas de gerenciamento de projetos para documentar e compartilhar informações.
-
-# Desenvolvimento:
-
-## Diagrama de classe:
-
-```mermaid
-classDiagram
-    class Usuario {
-        -ID: int
-        -nome: string
-        -email: string
-        -senha: string
-        -tipo: string
-        +login()
-        +logout()
-        +atualizarPerfil()
-    }
-
-    class Candidato {
-        -curriculo: string
-        -experiencia: string
-        -habilidades: string
-        +uploadCurriculo()
-        +aplicarVaga()
-    }
-
-    class Empresa {
-        -descricao: string
-        -setor: string
-        -localizacao: string
-        +criarVaga()
-        +visualizarCandidaturas()
-    }
-
-    class Vaga {
-        -ID: int
-        -titulo: string
-        -descricao: string
-        -requisitos: string
-        -dataPublicacao: date
-        -empresaID: int
-        +publicar()
-        +atualizar()
-        +excluir()
-    }
-
-    class Candidatura {
-        -ID: int
-        -candidatoID: int
-        -vagaID: int
-        -dataCandidatura: date
-        +enviar()
-        +cancelar()
-    }
-
-    class Administracao {
-        -ID: int
-        -nome: string
-        +gerenciarUsuarios()
-        +moderarVagas()
-    }
-
-    Usuario <|-- Candidato
-    Usuario <|-- Empresa
-    Empresa "1" -- "0..*" Vaga: publica
-    Candidato "1" -- "0..*" Candidatura: aplica
-    Vaga "1" -- "0..*" Candidatura: recebe
-    Administracao "1" -- "0..*" Usuario: gerencia
-    Administracao "1" -- "0..*" Vaga: modera
-
-```
-
-## Diagramas de uso:
-
-### 1. Usuários:
-
-```mermaid
-flowchart TD
-    %% Definindo o Ator
-    A1(Candidato)
-
-    %% Definindo os Casos de Uso
-    C1[Cadastrar Perfil]
-    C2[Upload Currículo]
-    C3[Buscar Vagas]
-    C4[Candidatar-se a Vagas]
-
-    %% Relacionamentos
-    A1 --> C1
-    A1 --> C2
-    A1 --> C3
-    A1 --> C4
-
-    %% Estilizando o Ator
-    classDef actor fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A1 actor;
-    
-    %% Estilizando os Casos de Uso
-    classDef usecase fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class C1,C2,C3,C4 usecase;
-
-    %% Estilizando as Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-
-```
-
-### 2. Empresas:
-
-```mermaid
-flowchart TD
-    %% Definindo o Ator
-    A2(Empresa)
-
-    %% Definindo os Casos de Uso
-    C1[Cadastrar Perfil]
-    C5[Criar Vaga]
-    C6[Gerenciar Candidaturas]
-    C7[Comunicar-se com Candidatos]
-
-    %% Relacionamentos
-    A2 --> C1
-    A2 --> C5
-    A2 --> C6
-    A2 --> C7
-
-    %% Estilizando o Ator
-    classDef actor fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A2 actor;
-    
-    %% Estilizando os Casos de Uso
-    classDef usecase fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class C1,C5,C6,C7 usecase;
-
-    %% Estilizando as Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-
-```
-
-### 3. Administração:
-
-```mermaid
-flowchart TD
-    %% Definindo o Ator
-    A3(Administrador)
-
-    %% Definindo os Casos de Uso
-    C8[Gerenciar Usuários]
-    C9[Moderador Vagas]
-    C10[Gerar Relatórios]
-
-    %% Relacionamentos
-    A3 --> C8
-    A3 --> C9
-    A3 --> C10
-
-    %% Estilizando o Ator
-    classDef actor fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A3 actor;
-    
-    %% Estilizando os Casos de Uso
-    classDef usecase fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class C8,C9,C10 usecase;
-
-    %% Estilizando as Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-
-```
-
-## Diagramas de fluxo
-
-### 1. Usuários
-
-```mermaid
-flowchart TD
-    A[Início] --> B[Candidato acessa o site]
-    B --> C[Cadastro/Login]
-    C --> D{Perfil completo?}
-    D -- Sim --> E[Buscar Vagas]
-    D -- Não --> F[Candidato preenche perfil]
-    F --> C
-    E --> G[Selecionar Vaga]
-    G --> H[Candidatar-se]
-    H --> I[Fim]
-
-    %% Estilizando Início e Fim
-    classDef startend fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A,I startend;
-    
-    %% Estilizando Processos
-    classDef process fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class B,C,E,F,G,H process;
-
-    %% Estilizando Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-
-```
-
-### 2. Empresas
-
-```mermaid
-flowchart TD
-    A[Início] --> B[Empresa acessa o site]
-    B --> C[Cadastro/Login]
-    C --> D{Perfil completo?}
-    D -- Sim --> E[Analizar/Registrar Vagas]
-    D -- Não --> F[Empresa preenche perfil]
-    F --> C
-    E --> G[Selecionar vaga]
-    G --> K[Editar vaga]
-    K --> J
-    E --> H[Registrar vaga]
-    H --> J
-    G --> I[Analizar candidatos]
-    I --> J[Fim]
-
-    %% Estilizando Início e Fim
-    classDef startend fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A,J startend;
-    
-    %% Estilizando Processos
-    classDef process fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class B,C,E,F,G,H,I,K,L process;
-
-    %% Estilizando Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-
-```
-
-### 3. Administração
-
-```mermaid
-flowchart TD
-    A[Início] --> B[Abrir Painel Administrativo]
-    B --> C[Gerenciar Usuários]
-    B --> D[Gerenciar Vagas]
-    C --> E[Gerar Relatórios]
-    D --> E
-    E --> F[Fim]
-
-    %% Estilizando Início e Fim
-    classDef startend fill:#ffcccb,stroke:#333,stroke-width:2px,color:#000;
-    class A,F startend;
-    
-    %% Estilizando Processos
-    classDef process fill:#d0f0c0,stroke:#333,stroke-width:2px,color:#000;
-    class B,C,D,E process;
-
-    %% Estilizando Conexões
-    linkStyle default stroke:#333,stroke-width:2px;
-```
+- **Conformidade Legal e Regulamentar:**
+    - Atendimento às normas e regulamentações aplicáveis.
+
+### **Riscos de Projeto:**
+
+- **Mudanças nos Requisitos:**
+    - Estabelecimento de um processo de gerenciamento de mudanças eficaz.
+
+- **Comunicação Ineficaz:**
+    - Utilização de ferramentas de comunicação e gerenciamento de projeto para manter todos os envolvidos informados.
+
+## **Desenvolvimento**
+
+### **Diagrama de Classe:**
+
+- Diagrama representando as principais classes do sistema e suas relações.
+
+### **Diagramas de Uso:**
+
+- **Usuários:**
+    - Diagrama mostrando como os candidatos interagem com o sistema.
+- **Empresas:**
+    - Diagrama mostrando como as empresas interagem com o sistema.
+- **Administração:**
+    - Diagrama mostrando como a equipe administrativa interage com o sistema.
+
+### **Diagramas de Fluxo:**
+
+- **Usuários:**
+    - Diagrama mostrando o fluxo de atividades para os candidatos.
+- **Empresas:**
+    - Diagrama mostrando o fluxo de atividades para as empresas.
+- **Administração:**
+    - Diagrama mostrando o fluxo de atividades para a administração.
+
