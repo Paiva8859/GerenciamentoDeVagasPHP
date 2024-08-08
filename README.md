@@ -588,8 +588,8 @@ flowchart TD
     A[Início] --> B[Abrir Painel Administrativo]
     B --> C[Gerenciar Usuários]
     B --> D[Gerenciar Vagas]
-    C --> E
     D --> E[Gerar Relatórios]
+    C --> E
     E --> F[Fim]
 
     %% Estilizando os Passos
