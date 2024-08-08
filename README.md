@@ -589,7 +589,7 @@ flowchart TD
     B --> C[Gerenciar Usuários]
     B --> D[Gerenciar Vagas]
     C --> E[Gerar Relatórios]
-    D --> E[Gerar Relatórios]
+    D --> E
     E --> F[Fim]
 
     %% Estilizando os Passos
