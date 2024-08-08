@@ -602,5 +602,4 @@ flowchart TD
     %% Estilizando as Conexões
     linkStyle default stroke:#333,stroke-width:2px;
 
-
 ```# GerenciamentoDeVagasPHP
