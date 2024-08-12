@@ -4,6 +4,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UsuarioController;
 
+// Rota para exibir a home
+Route::get('/',function(){return view('home');});
 
 // Rota para exibir o formulário de login
 Route::get('/login', [UsuarioController::class, 'showLoginForm'])->
@@ -17,12 +19,12 @@ name('usuarios.login');
 
 // Rota para exibir o formulário de registro
 Route::get('/registro', [UsuarioController::class, 'showRegisterForm'])->
-name('usuarios.register');
+name('usuarios.registro');
 
 
 // Rota para processar o registro
-Route::post('/registro', [UsuarioController::class, 'register'])->
-name('usuarios.register');
+Route::post('/registro', [UsuarioController::class, 'registro'])->
+name('usuarios.registro');
 
 
 // Rota para logout
