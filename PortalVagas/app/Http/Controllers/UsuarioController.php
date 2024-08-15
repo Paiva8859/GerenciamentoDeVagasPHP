@@ -24,21 +24,20 @@ class UsuarioController extends Controller
     // Processar o login do usuário
     public function login(Request $request)
     {
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
+        $request->validate([
+            'email' => 'required|string|email',
+            'password' => 'required|string'
         ]);
 
-
-        if (Auth::guard('web')->attempt($credentials)) {
-            $request->session()->regenerate();
-            return redirect()->intended('/dashboard');
+        $usuario = Usuario::where('email', $request->email)->first();
+        if ($usuario && Hash::check($request->password, $usuario->password)) {
+            session(['usuario_id' => $usuario->id]);
+            return redirect()->route('dashboard');
+        } else {
+            return back()->withErrors([
+                'email' => 'As credenciais fornecidas estão incorretas.'
+            ]);
         }
-
-
-        return back()->withErrors([
-            'email' => 'As credenciais não correspondem aos nossos registros.',
-        ])->onlyInput('email');
     }
 
 
@@ -55,14 +54,14 @@ class UsuarioController extends Controller
         $request->validate([
             'nome' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:usuarios',
-            'password' => 'required|string|min:8|confirmed',
+            'password' => 'required|string|min:8',
         ]);
 
 
         $usuario = Usuario::create([
             'nome' => $request->nome,
             'email' => $request->email,
-            'password' => Hash::make($request->password),
+            'password' => Hash::make($request->password)
         ]);
 
 
