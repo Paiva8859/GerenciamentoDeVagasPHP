@@ -1,11 +1,17 @@
 <?php
 
+use App\Models\Empresa;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
+use function Laravel\Prompts\table;
+
 return new class extends Migration
 {
+    /**
+     * Run the migrations.
+     */
     public function up(): void
     {
         Schema::create('usuarios', function (Blueprint $table) {
@@ -14,14 +20,13 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('empresa', ['usuario','empresa'])->default('usuario');
+            $table->enum('tipo',['usuario','empresa'])->default('usuario');
             $table->string('cnpj')->nullable();
             $table->string('nome_empresa')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });
     }
-
 
     /**
      * Reverse the migrations.
@@ -30,5 +35,4 @@ return new class extends Migration
     {
         Schema::dropIfExists('usuarios');
     }
-
 };

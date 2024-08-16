@@ -1,12 +1,9 @@
 @extends('layouts.app')
 
 
-
-
 @section('content')
     <div class="container">
         <h1 class="my-4">Vagas</h1>
-
 
         @if ($message = Session::get('success'))
             <div class="alert alert-success">
@@ -14,9 +11,7 @@
             </div>
         @endif
 
-
         <a class="btn btn-success mb-2" href="{{ route('vagas.create') }}"> Criar Nova Vaga</a>
-
 
         <table class="table table-bordered">
             <tr>

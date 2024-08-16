@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('empresas', function (Blueprint $table) {
             $table->id();
-            $table->string('nome', 255);
-            $table->string('nome_empresa', 255);
-            $table->string('email', 255)->unique();
-            $table->string('password', 255);
+            $table->string('nome');
+            $table->string('email')->unique();
+            $table->string('nome_empresa');
             $table->text('descricao_empresa');
             $table->timestamp('email_verified_at')->nullable();
+            $table->string('password');
             $table->rememberToken();
             $table->timestamps();
         });

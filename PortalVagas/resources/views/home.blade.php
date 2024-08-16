@@ -4,6 +4,7 @@
 
 
 @section('content')
+
     <div class="container">
         <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

@@ -1,16 +1,22 @@
 @if (Auth::check())
+    @if (Auth::user()->isEmpresa())
     <div>
-        <h3>Olá, {{Auth::user()->nome}}</h3>
+        <a href="/vagas">Acesse Dashboard de Vagas</a>
+    </div> 
+    @endif
+    <div>
+        <h3>Olá, {{ Auth::user()->nome }}</h3>
     </div>
     <div>
         <form action="/logout" method="post">
-        @csrf
-        <input type='submit' value='Sair'>
+            @csrf
+            <input type='submit' value='Sair'>
         </form>
     </div>
     <br>
     <hr>
     <br>
+    
 @else
     <div class="nav-bar">
         <a href="/login">Login</a>
