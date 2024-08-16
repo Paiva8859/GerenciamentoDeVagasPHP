@@ -1,12 +1,9 @@
 <?php
 
-
 namespace App\Http\Controllers;
-
 
 use Illuminate\Http\Request;
 use App\Models\Vaga;
-
 
 class VagaController extends Controller
 {
@@ -16,18 +13,16 @@ class VagaController extends Controller
     public function index()
     {
         $vagas = Vaga::all();
-        return view('vaga.index',compact('vagas'));
+        return view('vagas.index',compact('vagas'));
     }
-
 
     /**
      * Show the form for creating a new resource.
      */
     public function create()
     {
-        return view('vaga.create');
+        return view('vagas.create');
     }
-
 
     /**
      * Store a newly created resource in storage.
@@ -43,14 +38,10 @@ class VagaController extends Controller
         ]);
         Vaga::create($dados);
 
-
         return redirect()->route('vagas.index')
             ->with('success', 'Vaga criado com sucesso.');
 
-
     }
-
-
 
 
     /**
@@ -60,7 +51,6 @@ class VagaController extends Controller
     {
         return view('vagas.edit',compact('vaga'));
     }
-
 
     /**
      * Update the specified resource in storage.
@@ -76,11 +66,9 @@ class VagaController extends Controller
         ]);
         $vaga->update($dados);
 
-
         return redirect()->route('vagas.index')
             ->with('success', 'Vaga Atualizada com sucesso.');
     }
-
 
     /**
      * Remove the specified resource from storage.
@@ -88,7 +76,6 @@ class VagaController extends Controller
     public function destroy(Vaga $vaga)
     {
         $vaga->delete($vaga);
-
 
         return redirect()->route('vagas.index')
             ->with('success', 'Vaga Deletada com sucesso.');

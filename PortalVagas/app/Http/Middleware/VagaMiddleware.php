@@ -1,14 +1,11 @@
 <?php
 
-
 namespace App\Http\Middleware;
-
 
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\Auth;
-
 
 class VagaMiddleware
 {
@@ -23,13 +20,10 @@ class VagaMiddleware
         return $next($request);
         }
 
-
         // Se não for uma empresa, redireciona com uma mensagem de erro
         return redirect()->route('')->
-        withErrors(['access' => 'Você não tem permissão para acessar
+        withErrors(['access' => 'Você não tem permissão para acessar 
         essa área.']);
-
-
 
 
     }
