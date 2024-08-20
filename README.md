@@ -1,4 +1,4 @@
-# > Sistema Web de Gerenciamento de Empregos e Currículo
+# Sistema Web de Gerenciamento de Empregos e Currículo
 ### (Projeto para fins acadêmicos, documentação, dados e planejamento fictícios.)
 
 # **Escopo do Projeto**
